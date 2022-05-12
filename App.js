@@ -20,13 +20,13 @@ export default class App extends React.Component {
         <Text style={styles.count}>{this.state.count}</Text>
         <Button 
         style={styles.increasebutton}
-        title="Increase"
+        title="+"
         onPress={this.incrementValue}
         />
         <View style={{padding: 30}} />
         <Button 
         style={styles.decreasebutton}
-        title="Decrease"
+        title="-"
         onPress={this.decrementValue}
         />
       </View>
